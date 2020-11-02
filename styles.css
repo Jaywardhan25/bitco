@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+nav{
+  background-color: #f05454;
+  justify-content:center;
+}
+a{
+  color: white;
+}
+#heading{
+  font-size: 135%;
+}
+#inputDiv{
+  display: flex;
+  justify-content:center;
+  padding: 2%;
+}
+input{
+  margin-right: 2%;
+  width:50%;
+  padding:0% 2%;
+}
+.inputdiv1{
+  display: flex;
+}
+
+#container1{
+  position: relative;
+  max-width: 100%; /* Maximum width */
+ /* Center it */
+}
+#container1 #content0{
+  position: absolute; /* Position the background text */
+  top: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 95.5%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
+#container2{
+  display: flex;
+}
+#container2-1-1{
+  background-color:#333456;
+  color: white;
+  padding-top:8%;
+}
+#container2-2{
+  background-color:#595b83;
+  color: white;
+}
+#dropdowndiv{
+  background-color:#333456;
+}
+#container3{
+  padding: 5%;
+  background-color: #fae0df;
+  color: #e6739f;
+}
+#container4{
+  display: flex;
+  justify-content: space-around;
+  margin:5% 0%;
+}
+.c{
+  border: 1px solid black;
+  margin: 1%;
+  padding: 5%;
+  border-radius:50%;
+  height:auto;
+  width:auto;
+  background-color:#f1d4d4;
+}
+#container5{
+  background-color: #e6739f;
+  padding: 8%;
+  color: white;
+}
+
+#container5-2{
+  display: flex;
+  padding:1% 15%;
+  justify-content: center;
+}
+.div5-2-1{
+  display: flex;
+  padding: 0% 5%;
+}
+.div5-2-2{
+  display: flex;
+    padding: 0% 5%;
+}
+
+.d{
+  width:20vw;
+  padding:0% 5%;
+}
+@media only screen and (max-width: 600px) {
+
+  #container1{
+    height: auto;
+    padding:10% 0%;
+  }
+
+  #container1 #content0{
+    position: absolute;
+    top: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width:auto;
+    padding: 0px;
+  }
+  #container2{
+    display: flex;
+    flex-direction: column;
+  }
+  #container4{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+  }
+  .c{
+    border: 1px solid black;
+    margin: 1%;
+    padding: 6%;
+    border-radius:50%;
+    height: auto;
+    width:auto;
+    background-color:#f1d4d4;
+  }
+  #container5-2{
+    display: flex;
+    flex-direction: column;
+  }
+  .d{
+    width:25vh;
+    padding:0% 5%;
+  }
+  #inputDiv{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+  }
+  .imputdiv2{
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+  }
+
+}
